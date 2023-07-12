@@ -1,0 +1,101 @@
+[{
+  "name": "Sum",
+  "fields": {
+    "x": {
+      "label": "X",
+      "type": "int",
+      "defaultValue": 10,
+      "readOnly": false,
+      "calculate": null
+    },
+    "y": {
+      "label": "Y",
+      "type": "int",
+      "defaultValue": 15,
+      "readOnly": false,
+      "calculate": null
+    },
+    "action": {
+      "label": "Sum",
+      "type": "int",
+      "readOnly": true,
+      "calculate": "x + y"
+    }
+  }
+},
+{
+  "name": "Subtract",
+  "fields": {
+    "x": {
+      "label": "X",
+      "type": "int",
+      "defaultValue": 20,
+      "readOnly": false,
+      "calculate": null
+    },
+    "y": {
+      "label": "Y",
+      "type": "int",
+      "defaultValue": 15,
+      "readOnly": false,
+      "calculate": null
+    },
+    "action": {
+      "label": "Sum",
+      "type": "int",
+      "readOnly": true,
+      "calculate": "x - y"
+    }
+  }
+},
+{
+  "name": "Multiply",
+  "fields": {
+    "x": {
+      "label": "X",
+      "type": "int",
+      "defaultValue": 17,
+      "readOnly": false,
+      "calculate": null
+    },
+    "y": {
+      "label": "Y",
+      "type": "int",
+      "defaultValue": 5,
+      "readOnly": false,
+      "calculate": null
+    },
+    "action": {
+      "label": "Multiply",
+      "type": "int",
+      "readOnly": true,
+      "calculate": "x * y"
+    }
+  }
+},
+{
+  "name": "Mean",
+  "fields": {
+    "x": {
+      "label": "X",
+      "type": "int",
+      "defaultValue": 17,
+      "readOnly": false,
+      "calculate": null
+    },
+    "y": {
+      "label": "Y",
+      "type": "int",
+      "defaultValue": 5,
+      "readOnly": false,
+      "calculate": null
+    },
+    "action": {
+      "label": "Multiply",
+      "type": "int",
+      "readOnly": true,
+      "calculate": "(x + y)/2"
+    }
+  }
+}
+]
